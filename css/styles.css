@@ -1,0 +1,36 @@
+.background-image {
+    background-image: url(../images/camping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liclass {
+    color: var(--whitecolor);
+}
+
+
+
+/* veriables */
+:root {
+    --whitecolor: #FFFFFF;
+}
