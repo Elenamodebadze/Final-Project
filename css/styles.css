@@ -2,51 +2,66 @@
     background-image: url(../images/camping.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px;
+    max-width: 1920px;
     height: 1080px;
-    max-width: 100%;
+    width: 100%;
     flex-wrap: wrap;
     border-radius: 0px 0px 60px 60px;
-
 }
 .headerdiv {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     padding-top: 60px;
-    width: 1518px;
+    max-width: 1558px;
     height: 50px;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 .navigation {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-      
+    align-items: center;     
 }
 .nav-ul1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-left: 382px;
 }
 
-
 .liclass {
     color: var(--whitecolor);
-    margin-left: 25px;
+    margin-left: 20px;
     font-size: 18px;
+    font-family: var(--fontfamilyroboto);
 }
 .liclass1 {
     color: var(--whitecolor);
-    margin-left: 25px;
+    font-family: var(--fontfamilyroboto);
     font-size: 18px;
+    
+}
+
+.divsing {
+    max-width: 130px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-color: var(--whitecolor);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    font-family: var(--fontfamilyroboto);
+
+}
+.burger-bar {
+    display: none;
+    font-size: 30px;
+    color: var(--whitecolor);
 }
 .divheader {
-    width: 580px;
-    height: 485px;
-    max-width: 100%;
+    max-width: 610px;
+    width: 100%;
+    height: 1080px;
     margin: 0 auto;
     padding-top: 238px;
     display: flex;
@@ -54,17 +69,20 @@
     align-items: center;
 }
 .firsth {
-    width: 456px;
-    height: 218px;
+    max-width: 605px;
+    width: 100%;
     font-size: 81px;
     color: var(--whitecolor);
+    font-family: var(--fontfemiliarchivo);
+    margin-bottom: 50px;
 }
-
 .firstp {
-    width: 456px;
+    max-width: 456px;
     height: 57px;
+    width: 100%;
     font-size: 18px;
     color: var(--whitecolor);
+    font-family: var(--fontfamilyroboto);
 }
 .smolldiv {
     width: 205px;
@@ -78,6 +96,7 @@
 .smoldiva {
     font-size: 18px;
     color: var(--whitecolor);
+    font-family: var(--fontfamilyroboto);
 }
 
 /* hover */
@@ -85,4 +104,10 @@
 /* veriables */
 :root {
     --whitecolor: #FFFFFF;
+}
+:root{
+    --fontfamilyroboto: 'Roboto';
+}
+:root {
+    --fontfemiliarchivo:'Archivo Expanded';
 }

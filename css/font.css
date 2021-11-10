@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Roboto-Thin.eot');
+    src: url('../Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../Roboto-Thin.woff2') format('woff2'),
+        url('../Roboto-Thin.woff') format('woff'),
+        url('../Roboto-Thin.ttf') format('truetype'),
+        url('../Roboto-Thin.svg#Roboto-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('../ArchivoExpanded-Bold.eot');
+    src: url('../ArchivoExpanded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../ArchivoExpanded-Bold.woff2') format('woff2'),
+        url('../ArchivoExpanded-Bold.woff') format('woff'),
+        url('../ArchivoExpanded-Bold.ttf') format('truetype'),
+        url('../ArchivoExpanded-Bold.svg#ArchivoExpanded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
