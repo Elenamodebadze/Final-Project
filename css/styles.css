@@ -80,22 +80,24 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    background-color: #E76F51;
 }
 .smoldiva {
     font-size: 18px;
     color: var(--whitecolor);
     font-family: var(--fontfamilyroboto);
+    
 }
 /* firs section */
 .firstdiv {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     max-width: 1518px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
 }
 .smolldiv1 {
     max-width: 357px;
