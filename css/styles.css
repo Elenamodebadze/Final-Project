@@ -1,3 +1,6 @@
+.boddy {
+    background-color: #FAF4F2;
+}
 .background-image {
     background-image: url(../images/camping.jpg);
     background-repeat: no-repeat;
@@ -72,7 +75,6 @@
 .smolldiv {
     width: 205px;
     height: 50px;
-    background-color: #E76F51;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -83,6 +85,41 @@
     font-size: 18px;
     color: var(--whitecolor);
     font-family: var(--fontfamilyroboto);
+}
+/* firs section */
+.firstdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1518px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.smolldiv1 {
+    max-width: 357px;
+    height: 312px;
+    width: 100%;
+    background-color: var(--whitecolor);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.smoldivh {
+    font-size: 18px;
+    font-family: var(--fontfemiliarchivo);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.smolldivp {
+    font-size: 16px;
+    font-family: var(--fontfamilyroboto);
+    max-width: 277px;
+    height: 25px;
 }
 
 /* hover */
