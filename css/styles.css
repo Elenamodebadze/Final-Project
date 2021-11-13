@@ -2,42 +2,28 @@
     background-image: url(../images/camping.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1920px;
     height: 1080px;
+    max-width: 100%;
     width: 100%;
-    flex-wrap: wrap;
-    border-radius: 0px 0px 60px 60px;
+    border-radius: 0px 0px 70px 70px;
 }
 .headerdiv {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     padding-top: 60px;
-    max-width: 1558px;
     height: 50px;
-    width: 100%;
-    margin: 0 auto;
-}
-.navigation {
-    display: flex;
-    align-items: center;     
 }
 .nav-ul1 {
     display: flex;
-    align-items: center;
-    padding-left: 382px;
+    align-items: center;        
 }
 
 .liclass {
     color: var(--whitecolor);
-    margin-left: 20px;
+    margin-left: 25px;
     font-size: 18px;
     font-family: var(--fontfamilyroboto);
-}
-.liclass1 {
-    color: var(--whitecolor);
-    font-family: var(--fontfamilyroboto);
-    font-size: 18px;
-    
 }
 
 .divsing {
@@ -54,9 +40,8 @@
 
 }
 .burger-bar {
-    display: none;
-    font-size: 30px;
-    color: var(--whitecolor);
+    display: block;
+    font-size: 50px;
 }
 .divheader {
     max-width: 610px;
@@ -92,6 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .smoldiva {
     font-size: 18px;

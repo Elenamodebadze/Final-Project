@@ -3,4 +3,6 @@
         display: none;}
     .burger-bar {
         display: block;
-        color: white;}}
+        background-color: white;
+        color: tomato;
+    }}
