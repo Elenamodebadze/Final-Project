@@ -21,14 +21,12 @@
     display: flex;
     align-items: center;        
 }
-
 .liclass {
     color: var(--whitecolor);
     margin-left: 25px;
     font-size: 18px;
     font-family: var(--fontfamilyroboto);
 }
-
 .divsing {
     max-width: 130px;
     width: 100%;
@@ -63,6 +61,7 @@
     color: var(--whitecolor);
     font-family: var(--fontfemiliarchivo);
     margin-bottom: 50px;
+    text-align: center;
 }
 .firstp {
     max-width: 456px;
@@ -71,6 +70,7 @@
     font-size: 18px;
     color: var(--whitecolor);
     font-family: var(--fontfamilyroboto);
+    text-align: center;
 }
 .smolldiv {
     width: 205px;
@@ -97,7 +97,8 @@
     max-width: 1518px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 50px; 
+    margin-top: -120px; 
+
 }
 .smolldiv1 {
     max-width: 357px;
@@ -115,6 +116,7 @@
     font-family: var(--fontfemiliarchivo);
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
 
 }
 .smolldivp {
@@ -122,49 +124,17 @@
     font-family: var(--fontfamilyroboto);
     max-width: 277px;
     height: 25px;
-}
-/* section 4 */
-.section4div {
-    max-width: 1518px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 150px;
-    background-color: #F8E1DB;
-    border-radius: 30px;
-}
-.infut5 {
-    max-width: 616px;
-    width: 100%;
-    height: 80px;
-    border-radius: 10px;
-    margin-top: 30px;
-    font-family:var(--fontfamilyroboto);
-    background-color: #E8E8E8;
-    border-color: darkgrey;
-    border-style: solid;
-    background-color: ivory;
-}
-.section4h3 {
-    font-size: 40px;
-    font-family: var(--fontfemiliarchivo);
-    margin-bottom: 10px;
-}
-.section4p {
-    max-width: 486px;
-    width: 100%;
-    font-size: 16px;
-    font-family: var(--fontfamilyroboto);
+    text-align: center;
 }
 /* section 2 */
-
 .section2div {
     max-width: 1518px;
     width: 100%;
     margin: 0 auto;
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .headdivp {
     padding-top: 41px;
@@ -172,6 +142,7 @@
     width: 100%;
     font-family: var(--fontfemiliarchivo);
     font-size: 40px;
+    text-align: center;
     
 }
 .smolboxs {
@@ -224,49 +195,59 @@
     height: 50px;
     border-radius: 30px;
     border-style: solid;
-    background-color: ivory;
+    background-color:var(--whitecolor);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 60px;
 }
-
-/* section map */
-
-.map {
-    max-width: 1518px;
-    width: 100%;
-    margin: 0 auto;
-}
-.sectionmap {
+.viewdiv {
     max-width: 1518px;
     width: 100%;
 }
-.mapp {
-    font-size: 25px;
-    font-family: var(--fontfamilyroboto);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.location {
-    width: 25px;
-    height:25px;
-}
-.locationdiv {
+/* section 4 */
+.section4div {
+    max-width: 1518px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    max-width: 500px;
-    width: 100%;
     margin: 0 auto;
+    margin-top: 150px;
+    background-color: #F8E1DB;
+    border-radius: 30px;
 }
-
+.infut5 {
+    max-width: 616px;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family:var(--fontfamilyroboto);
+    background-color: #E8E8E8;
+    border-color: darkgrey;
+    border-style: solid;
+    background-color: ivory;
+}
+.section4h3 {
+    font-size: 40px;
+    font-family: var(--fontfemiliarchivo);
+    margin-bottom: 10px;
+}
+.section4p {
+    max-width: 486px;
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--fontfamilyroboto);
+}
+.imagediv {
+    width: 100%;
+}
 /* form section */
 .text-divh {
     font-size: 25px;
     font-family:var(--fontfamilyroboto);
-    color: var(--blucolor);
     max-width: 800px;
     width: 100%;
     font-weight: bold;
@@ -357,7 +338,6 @@
     height: 60px;
     margin-bottom: 15px;
     font-family:var(--fontfamilyroboto);
-    color:var(--blucolor);
     background-color: #E8E8E8;
     border-color: darkgrey;
     border-style: solid;
@@ -373,7 +353,7 @@
     width: 100%;
     height: 60px;
     border-radius: 10px;
-    background-color:var(--blucolor);
+    background-color: #E76F51;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -399,7 +379,103 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;}
-
+/* section map */
+.map {
+    max-width: 1518px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.sectionmap {
+    max-width: 1518px;
+    width: 100%;
+}
+.mapp {
+    font-size: 25px;
+    font-family: var(--fontfamilyroboto);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location {
+    width: 25px;
+    height:25px;
+}
+.locationdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* footer */
+.footerdiv {
+    background-image: url(../images/Rectangle\ 57.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+.firtsfooter {
+    max-width: 1518px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 103px;
+}
+.footerh2 {
+    font-size: 18px;
+    font-family: var(--fontfemiliarchivo);
+}
+.footerp {
+    font-size: 16px;
+    font-family: var(--fontfamilyroboto);
+    max-width: 615px;
+    margin-top: 20px;
+    color: #3B3735;
+}
+.footerh4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: var(--fontfemiliarchivo);
+}
+.footerh3 {
+    font-size: 18px;
+    font-family: var(--fontfemiliarchivo);
+}
+.footera {
+    font-size: 16px;
+    font-family: var(--fontfamilyroboto);
+    color:#3B3735;
+}
+.footerul {
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.footerli {
+    margin-top: 10px;
+}
+.footerli1 {
+    margin-top: 10px;
+    margin-bottom: 85px;
+}
+.first-span:before {
+    content: ' \00A9';}
+.seconffooter {
+    max-width: 193px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-family: var(--fontfamilyroboto);
+    color: #3B3735;
+}
 /* hover */
 
 /* veriables */
@@ -412,5 +488,3 @@
 :root {
     --fontfemiliarchivo:'Archivo Expanded';
 }
-:root {
-    --blucolor: blue;}
