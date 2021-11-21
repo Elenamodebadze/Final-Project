@@ -32,9 +32,10 @@
     font-size: 18px;
     font-family: var(--fontfamilyroboto);
 }
-.burger-bar {
+.burgerbar {
     display: none;
     font-size: 50px;
+    color: var(--whitecolor);
 }
 .divheader {
     max-width: 610px;
@@ -89,8 +90,7 @@
     max-width: 1518px;
     width: 100%;
     margin: 0 auto;
-    margin-top: -120px; 
-
+    margin-top: -90px; 
 }
 .smolldiv1 {
     max-width: 357px;
